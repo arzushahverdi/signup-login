@@ -1,0 +1,96 @@
+body {
+  background-color: antiquewhite;
+}
+
+.formlar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 50px;
+  gap: 100px;
+}
+
+.sign-up {
+  width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  border-radius: 9px;
+}
+
+.login {
+  width: 380px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  padding-left: 20px;
+  padding-top: 65px;
+  padding-bottom: 85px;
+  border-radius: 9px;
+}
+.formlar img {
+  align-self: flex-end;
+  margin-right: 20px;
+}
+
+h1 {
+  align-self: flex-start;
+}
+
+.signup_email,
+.signup_password,
+.signup_password2,
+.login_email,
+.login_password,
+.login_password2 {
+  width: 353px;
+  border-radius: 10px;
+  /* border: 1px solid #d8dadc; */
+  padding: 15px;
+  margin: 10px 0;
+  box-sizing: border-box;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+button {
+  width: 353px;
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 30px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+  letter-spacing: 1px;
+  box-sizing: border-box;
+}
+
+button:hover {
+  opacity: 60%;
+  transition: all 0.4s ease-in;
+}
+
+.input-control.success input {
+  border-color: #09c372;
+}
+
+.input-control.error input {
+  border-color: #ff3860;
+}
+
+.input-control .error {
+  color: #ff3860;
+  font-size: 14px;
+  height: 15px;
+  margin-top: 5px;
+}

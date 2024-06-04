@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="formlar">
+      <!-- <div class="forms"> -->
+        <div class="sign-up">
+          <img src="./Star 8.png" alt="" width="32px" height="32px" />
+          <h1>Sign up</h1>
+          <form class="signup_form" action="/">
+            <div class="input-control">
+              <label for="signup_email">Email</label> <br />
+              <input type="text" class="signup_email" placeholder="example@gmail.com" />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="signup_password">Create a password</label> <br />
+              <input
+                type="password"
+                class="signup_password"
+                placeholder="must be 8 characters"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="signup_password">Confirm password</label> <br />
+              <input
+                type="password"
+                class="signup_password2"
+                placeholder="repeat password"
+              />
+              <div class="error"></div>
+            </div>
+            <button type="submit" class="signupButton">Sign up</button>
+          </form>
+        </div>
+
+        <!-- log in -->
+        
+        <div class="login">
+          <img src="./Star 8.png" alt="" width="32px" height="32px" />
+          <h1>Log in</h1>
+          <form class="login_form" action="/">
+            <div class="input-control">
+              <label for="login_email">Email address</label> <br />
+              <input type="text" class="login_email" placeholder="example@gmail.com" />
+              <div class="error"></div>
+            </div>
+            <div class="input-control">
+              <label for="login_password">Password</label> <br />
+              <input
+                type="password"
+                class="login_password"
+                placeholder="must be 8 characters"
+              />
+              <div class="error"></div>
+            </div>
+            <div class="forgot-password">
+              <a href="/">Forgot password?</a>
+            </div>
+            <button type="submit" class="loginButton">Log in</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <script defer src="./script.js"></script>
+  </body>
+</html>
